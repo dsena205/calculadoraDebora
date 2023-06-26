@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">calculadoraDebora</string>
+    <string name="txt1">Bem vindo a sua calculadora!</string>
+    <string name="edit1">Digite um numero</string>
+    <string name="edit2">Digite outro numero</string>
+    <string name="editresultado">Resultado</string>
+    <string name="btnsomar">+</string>
+    <string name="btnsubtrair">-</string>
+    <string name="btnmultiplicar">*</string>
+    <string name="btndividir">/</string>
+
+</resources>

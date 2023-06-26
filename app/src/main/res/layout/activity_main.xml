@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:text="@string/txt1"
+            android:textSize="23sp"
+        />
+
+
+
+
+            <EditText
+                android:id="@+id/edit1"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:hint="@string/edit1"
+                android:inputType="number">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/edit2"
+                android:layout_width="351dp"
+                android:layout_height="62dp"
+                android:hint="@string/edit2"
+                android:inputType="number"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnsomar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/monocromatica"
+                    android:text="@string/btnsomar"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btnsubtrair"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3sp"
+                    android:backgroundTint="@color/mono1"
+                    android:text="@string/btnsubtrair"
+                    android:textSize="20sp"
+
+                    />
+
+                <Button
+                    android:id="@+id/btnmultiplicar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3sp"
+                    android:backgroundTint="@color/mono2"
+                    android:text="@string/btnmultiplicar"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btndividir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3sp"
+                    android:backgroundTint="@color/mono3"
+                    android:text="@string/btndividir"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+            <EditText
+                android:inputType="number"
+                android:id="@+id/editresultado"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:hint="@string/editresultado">
+
+            </EditText>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
